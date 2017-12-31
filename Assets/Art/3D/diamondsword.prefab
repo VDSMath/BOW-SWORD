@@ -1,0 +1,146 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications: []
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 1483697122023864}
+  m_IsPrefabParent: 1
+--- !u!1 &1483697122023864
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 4805449280656732}
+  - component: {fileID: 33798960626150236}
+  - component: {fileID: 23727231504227170}
+  - component: {fileID: 95414337986653024}
+  - component: {fileID: 65342760147084570}
+  - component: {fileID: 114400507665542570}
+  m_Layer: 0
+  m_Name: diamondsword
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4805449280656732
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1483697122023864}
+  m_LocalRotation: {x: -0.21027584, y: -0.67511785, z: 0.67511785, w: -0.21027584}
+  m_LocalPosition: {x: 0.58, y: -0.22, z: 0.82}
+  m_LocalScale: {x: 0.09250309, y: 0.09250315, z: 0.004256858}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: -270, y: 100, z: -45.4}
+--- !u!23 &23727231504227170
+MeshRenderer:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1483697122023864}
+  m_Enabled: 1
+  m_CastShadows: 1
+  m_ReceiveShadows: 1
+  m_MotionVectors: 1
+  m_LightProbeUsage: 1
+  m_ReflectionProbeUsage: 1
+  m_Materials:
+  - {fileID: 2100000, guid: 30c57b91e6219a944abcee6da87ada51, type: 2}
+  - {fileID: 2100000, guid: fad70312626c06d48aabfdf95219e37b, type: 2}
+  - {fileID: 2100000, guid: 327860d9454974d4fa9925ae49118d68, type: 2}
+  - {fileID: 2100000, guid: 4cbf57e630a1802489dcdd77e4038472, type: 2}
+  - {fileID: 2100000, guid: 14bc37e31e18dc74fa126824338927ed, type: 2}
+  - {fileID: 2100000, guid: 1a642f2df16215745ad63f4d71bebef3, type: 2}
+  - {fileID: 2100000, guid: 59098dda701595b48a261eb851c736f1, type: 2}
+  - {fileID: 2100000, guid: 886e839c5f47ccb4291dbdf28cd96d79, type: 2}
+  - {fileID: 2100000, guid: 0490d9b395a9a8441800503955ab5ea1, type: 2}
+  m_StaticBatchInfo:
+    firstSubMesh: 0
+    subMeshCount: 0
+  m_StaticBatchRoot: {fileID: 0}
+  m_ProbeAnchor: {fileID: 0}
+  m_LightProbeVolumeOverride: {fileID: 0}
+  m_ScaleInLightmap: 1
+  m_PreserveUVs: 0
+  m_IgnoreNormalsForChartDetection: 0
+  m_ImportantGI: 0
+  m_SelectedEditorRenderState: 3
+  m_MinimumChartSize: 4
+  m_AutoUVMaxDistance: 0.5
+  m_AutoUVMaxAngle: 89
+  m_LightmapParameters: {fileID: 0}
+  m_SortingLayerID: 0
+  m_SortingLayer: 0
+  m_SortingOrder: 0
+--- !u!33 &33798960626150236
+MeshFilter:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1483697122023864}
+  m_Mesh: {fileID: 4300000, guid: 485944a52fb303b48af155b12bf0ec7f, type: 3}
+--- !u!65 &65342760147084570
+BoxCollider:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1483697122023864}
+  m_Material: {fileID: 0}
+  m_IsTrigger: 0
+  m_Enabled: 1
+  serializedVersion: 2
+  m_Size: {x: 4.7726545, y: 5.08, z: 7.82}
+  m_Center: {x: -1.6776745, y: -2.3099997, z: -0.000003479898}
+--- !u!95 &95414337986653024
+Animator:
+  serializedVersion: 3
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1483697122023864}
+  m_Enabled: 1
+  m_Avatar: {fileID: 9000000, guid: 485944a52fb303b48af155b12bf0ec7f, type: 3}
+  m_Controller: {fileID: 9100000, guid: 6404788be8badac408a075f93a8e1e3c, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+--- !u!114 &114400507665542570
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1483697122023864}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d5ceb339997c8304e9354d4ce5ddc9da, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _emit: 1
+  _emitTime: 0.72
+  _material: {fileID: 2100000, guid: 0490d9b395a9a8441800503955ab5ea1, type: 2}
+  _lifeTime: 1
+  _colors: []
+  _sizes: []
+  _minVertexDistance: 0.1
+  _maxVertexDistance: 10
+  _maxAngle: 3
+  _autoDestruct: 0
+  subdivisions: 4
+  _base: {fileID: 4805449280656732}
+  _tip: {fileID: 4805449280656732}
